@@ -12,6 +12,12 @@ function breakOut(array, changeValue, stopValue) {
        if(array[i] == skipValue) {
          continue
        }
-      array[i] = changeValue 
+      array[i] = changeValue
      }
  }
+
+function findBy(array, findFn) {
+  for(let i = 0; i < array.length; i++) {
+    findFn(array[i])
+  }
+}

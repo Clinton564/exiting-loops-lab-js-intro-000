@@ -19,6 +19,6 @@ function breakOut(array, changeValue, stopValue) {
 
 function findBy(array, findFn) {
   for(let i = 0; i < array.length; i++) {
-    findFn(array[i])
+    return findFn(array[i])
   }
 }
